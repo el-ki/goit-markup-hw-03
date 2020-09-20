@@ -232,6 +232,23 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.team-list {
+  display: flex;
+  align-items: center;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-item-img {
+  margin-bottom: 30px;
+}
+
+.team-title {
+  margin-bottom: 10px;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -257,8 +274,20 @@ img {
   padding-bottom: 60px;
 }
 
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .logo-dark-theme {
   color: var(--color-dark-theme);
+}
+
+.footer-address-link,
+.footer-mail,
+.footer-tel {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .footer-address-link {
