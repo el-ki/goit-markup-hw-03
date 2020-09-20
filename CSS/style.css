@@ -1,0 +1,228 @@
+:root {
+  --main-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-color: #212121;
+  --color-dark-theme: #ffffff;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --background-color: #2f303a;
+  --logo-color: #000000;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  --team-background-color: #f5f4fa;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+/* index.html */
+
+/* HEADER */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.navigation-list .current {
+  color: var(--accent-color);
+}
+
+.address-mail,
+.address-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--accent-color);
+}
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+  background: var(--background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-dark-theme);
+}
+
+.modal-btn {
+  font-style: normal;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-theme);
+  background: var(--accent-color);
+}
+
+/* ADVANTAGES */
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/* ABOUT US */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* OUR TEAM */
+.team {
+  background: var(--team-background-color);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/* FOOTER */
+.footer {
+  background: var(--background-color);
+}
+
+.logo-dark-theme {
+  color: var(--color-dark-theme);
+}
+
+.footer-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--color-dark-theme);
+}
+
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--footer-color);
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+/* portfolio.html */
+
+/* GALERY */
+.galery-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.galery-button:hover,
+.galery-button:focus {
+  color: var(--color-dark-theme);
+  background: var(--accent-color);
+}
+
+.picture-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+}
+
+.picture-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
