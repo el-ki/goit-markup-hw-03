@@ -173,6 +173,16 @@ img {
   padding-top: 94px;
   padding-bottom: 47px;
 }
+
+.advantages-list {
+  display: flex;
+  align-items: center;
+}
+
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -180,11 +190,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-color);
+  margin-bottom: 10px;
 }
 
 .advantages-description {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--main-color);
