@@ -215,6 +215,15 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+.about-list {
+  display: flex;
+  align-items: center;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* OUR TEAM */
