@@ -141,6 +141,11 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-dark-theme);
+  display: block;
+  width: 700px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .modal-btn {
@@ -155,6 +160,12 @@ img {
   letter-spacing: 0.06em;
   color: var(--color-dark-theme);
   background: var(--accent-color);
+  min-width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin: 0 auto;
 }
 
 /* ADVANTAGES */
