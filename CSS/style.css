@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --main-color: #757575;
   --accent-color: #2196f3;
@@ -26,9 +33,24 @@ body {
 .address {
   font-style: normal;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  display: block;
+}
 /* index.html */
 
 /* HEADER */
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -79,6 +101,8 @@ body {
 /* HERO */
 .hero {
   background: var(--background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -106,6 +130,10 @@ body {
 }
 
 /* ADVANTAGES */
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -125,6 +153,11 @@ body {
 
 /* ABOUT US */
 
+.about {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -137,6 +170,8 @@ body {
 /* OUR TEAM */
 .team {
   background: var(--team-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
   font-weight: 500;
@@ -159,6 +194,8 @@ body {
 /* FOOTER */
 .footer {
   background: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-dark-theme {
@@ -195,6 +232,10 @@ body {
 /* portfolio.html */
 
 /* GALERY */
+
+.galery {
+  padding: 94px 0;
+}
 .galery-button {
   font-style: normal;
   font-weight: 500;
