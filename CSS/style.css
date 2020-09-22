@@ -46,10 +46,6 @@ img {
 /* index.html */
 
 /* HEADER */
-.header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .header .container {
   display: flex;
@@ -82,6 +78,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--logo-color);
   margin-right: 92px;
+  display: block;
+  padding: 32px 0;
 }
 
 .logo-color {
@@ -94,6 +92,8 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  display: block;
+  padding: 32px 0;
 }
 
 .navigation-list .current {
@@ -111,6 +111,8 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  display: block;
+  padding: 32px 0;
 }
 
 .navigation-list-link:hover,
@@ -171,7 +173,7 @@ img {
 /* ADVANTAGES */
 .advantages {
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 
 .advantages-list {
@@ -204,7 +206,6 @@ img {
 /* ABOUT US */
 
 .about {
-  padding-top: 47px;
   padding-bottom: 94px;
 }
 
@@ -241,10 +242,6 @@ img {
   margin-right: 30px;
 }
 
-.team-item-img {
-  margin-bottom: 30px;
-}
-
 .team-title {
   margin-bottom: 10px;
 }
@@ -267,6 +264,19 @@ img {
   color: var(--main-color);
 }
 
+.name-container {
+  padding: 30px 59px;
+  background: var(--color-dark-theme);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item-img {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 /* FOOTER */
 .footer {
   background: var(--background-color);
@@ -285,7 +295,7 @@ img {
 
 .footer-address-link,
 .footer-mail,
-.footer-tel {
+.footer-tel:not(:last-child) {
   display: block;
   margin-bottom: 10px;
 }
@@ -318,7 +328,11 @@ img {
   color: var(--accent-color);
 }
 /* portfolio.html */
+/* HEADER */
 
+.header {
+  border: 1px solid #ececec;
+}
 /* GALERY */
 
 .galery {
@@ -347,8 +361,11 @@ img {
   border: transparent;
 }
 
-.galery-item {
+.galery-list {
   margin-bottom: 50px;
+}
+
+.galery-item {
   align-items: center;
 }
 
@@ -372,7 +389,7 @@ img {
 }
 
 .picture-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .picture-title {
   font-weight: 700;
@@ -388,4 +405,11 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+
+.picture-container {
+  background: var(--color-dark-theme);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  padding: 20px 24px;
 }
